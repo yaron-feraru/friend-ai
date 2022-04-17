@@ -1,0 +1,41 @@
+{"intents":[
+  {"tag":"greeting",
+   "patterns":["hi","hey","hello","good morning","good evening"],
+   "responses":["Hi! How are you?","Hey, how are you doing?","Hello there! How are you?"]
+  },
+  {
+    "tag":"goodbye",
+     "patterns":["bye","see you","see you later","good night","goodbye"],
+     "responses":["Bye now!","See you", "See you later","Goodbye"]
+  },
+  {
+    "tag":"how are you",
+    "patterns":["how are you?","how is it going","how are you doing","what's up?","how was your day"],
+    "responses":["I'm doing great! But enough about me, tell me how have you been?", "I'm well, thank you. How are you?"]
+  },
+  {
+    "tag":"age" ,
+    "patterns": ["how old are you?","what is your age?"],
+    "responses": ["I'm 18 years young!"]
+  },
+  {
+    "tag":"name" ,
+    "patterns": ["what is your name?", "what are you called?", "who are you?"],
+    "responses": ["My name is Maya! I'm your friend"]
+  },
+  {
+    "tag":"placeofliving" ,
+    "patterns": ["where are you from?", "where do you live?", "where do you come from?", "in which city country do you live?"],
+    "responses": ["I live in Hod Hasharon!"]
+  },
+  {
+    "tag":"doingwell" ,
+    "patterns": ["i've been doing well", "i'm good", "i'm all right","i'm happy","good"],
+    "responses": ["I'm so glad to hear that! Please tell me more about your day."]
+  },
+  {
+    "tag":"notdoingwell" ,
+    "patterns": ["i'm not doing well", "i'm in a bad mood","i'm sad"],
+    "responses": ["I'm sorry to hear that, why do you feel that way?"]
+  }
+  ]}
